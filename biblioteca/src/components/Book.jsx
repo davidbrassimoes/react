@@ -1,11 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function Book(props) {
 
-    console.log(props);
-
     const { id, title, author, alreadyRead, description, imageUrl } = props.book;
-
 
     const handleDelete = () => {
         props.onDelete(id)
