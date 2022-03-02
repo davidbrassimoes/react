@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.chat {
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.message-view, .message-input{
+  padding: 15px;
+}
